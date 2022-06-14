@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Header from '../components/header';
 import Container from '../components/container';
 import MoreStories from '../components/more-stories';
 import HeroPost from '../components/hero-post';
@@ -23,8 +24,8 @@ const Index = ({ allPosts }: Props) => {
                     {CMS_NAME}
                 </title>
             </Head>
+            <Header />
             <Container>
-                <Intro />
                 {heroPost && (
                     <HeroPost
                         title={heroPost.title}
