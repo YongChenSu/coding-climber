@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Header from '../components/header';
-import Banner from '../components/banner';
+// import Banner from '../components/banner';
 import Container from '../components/container';
 import MoreStories from '../components/more-stories';
 import HeroPost from '../components/hero-post';

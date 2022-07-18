@@ -3,7 +3,7 @@ import Avatar from './avatar';
 import DateFormatter from './date-formatter';
 import CoverImage from './cover-image';
 import Author from '../types/author';
-import ArticleCard from '../components/articleCard';
+// import ArticleCard from '../components/articleCard';
 
 type Props = {
   title: string
@@ -54,7 +54,7 @@ const HeroPost = ({
                     <Avatar name={author.name} picture={author.picture} />
                 </div>
             </div>
-            <ArticleCard post={postData} />
+            {/* <ArticleCard post={postData} /> */}
         </section>
     );
 };
